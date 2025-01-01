@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar with Search Icon and Clean Focus</title>
+    <!-- Bootstrap CSS for layout and styling -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS for additional styling and effects -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./events.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <!-- Brand / Logo -->
+
+          <!-- Toggler for mobile view -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar content (links and search bar) -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="../../SE/index.html">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pending Events</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="../index.html">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="../create-event/index.html">Create Event</a></li>
+            </ul>
+
+            <!-- Search Bar -->
+            <form class="form-inline position-relative">
+              <!-- Search Icon -->
+              <i class="fas fa-search search-bar-icon"></i>
+              <input
+                class="form-control search-bar"
+                id="searchInput"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <!-- Autocomplete Suggestions -->
+              <div
+                id="autocompleteSuggestions"
+                class="autocomplete-suggestions"
+              ></div>
+            </form>
+          </div>
+
+          <!-- Icons (Profile, Wishlist, Calendar) -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="profileButton">
+                <i class="fas fa-user"></i>
+                <div>Profile</div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="openModal">
+                <i class="fas fa-heart"></i>
+                <div>Wishlist</div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-calendar-alt"></i>
+                <div>Calendar</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Loginmodal -->
+
+        <div class="popup" id="popupForm">
+          <div class="wrapper">
+            <span class="close-btn1" id="closePopup">&times;</span>
+            <h2 id="formTitle">Registration</h2>
+            <form action="#" id="registrationForm">
+              <div class="input-box" id="nameInp">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter your name(optional)"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Create password"
+                  required
+                />
+              </div>
+
+              <div class="input-box" id="confirmPasswordBox">
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  placeholder="Confirm password"
+                  required
+                />
+              </div>
+
+              <div class="policy" id="termsPolicy">
+                <input type="checkbox" id="termsAccepted" />
+                <h3>I accept all terms & conditions</h3>
+              </div>
+
+              <div class="input-box button">
+                <input type="Submit" value="Register Now" id="submitButton" />
+              </div>
+
+              <div class="text">
+                <h3 id="toggleLogin">
+                  Already have an account? <a href="#">Login now</a>
+                </h3>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Wishlist Modal -->
+        <div id="wishlistModal" class="wishlist-modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>My Wishlist</h2>
+              <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+
+            <div id="wishlistItems" class="wishlist-items">
+              <!-- Wishlist items will be dynamically added here -->
+            </div>
+
+            <div class="modal-footer">
+              <button id="clearAllBtn" class="clear-all-btn">Clear All</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+    <main>
+      <section class="events-list">
+      
+      </section>
+      <p id="no-more-events" style="display: none;">No more events available.</p>
+
+    </main>
+    <!-- footer -->
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for navbar scroll effect -->
+    <script src="./scripts.js"></script>
+    <script src="./events.js"></script>
+  </body>
+</html>

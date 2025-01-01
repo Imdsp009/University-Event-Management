@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thapar University Events</title>
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo_container">
+            <a href="index.html"><img class="tiet_home" src="media/tiet.jpg"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="societies.html">Societies</a>
+            <a href="#footer">Contacts</a>
+            <a href="sponsor.html">Sponsors</a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input placeholder="Search for events, societies, and more" class="search_input">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined">calendar_month</span>
+                <span class="action_name">Calendar</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="events-list">
+        <div class="event-item">
+            <h3>TechFest 2024</h3>
+            <p>Date: 20th November 2024</p>
+            <p>Join the annual TechFest, where students showcase their technical skills and innovations. Exciting competitions and workshops await!</p>
+            <button class="register-button" onclick="registerEvent('TechFest 2024')">Register</button>
+        </div>
+
+        <div class="event-item">
+            <h3>Cultural Night</h3>
+            <p>Date: 5th December 2024</p>
+            <p>A night of music, dance, and cultural performances by Thapar's finest talents. Don't miss out on this exciting celebration of diversity and creativity.</p>
+            <button class="register-button" onclick="registerEvent('Cultural Night')">Register</button>
+        </div>
+
+        <div class="event-item">
+            <h3>Entrepreneurship Summit</h3>
+            <p>Date: 15th January 2025</p>
+            <p>Engage with inspiring entrepreneurs and startups at this year's summit. Learn from industry leaders and participate in startup pitch competitions.</p>
+            <button class="register-button" onclick="registerEvent('Entrepreneurship Summit')">Register</button>
+        </div>
+    </section>
+    <section class="event-creation">
+        <h2>Create Event</h2>
+        <form id="event-form">
+            <input type="text" id="event-title" placeholder="Event Title" required>
+            <input type="date" id="event-date" required>
+            <input type="time" id="event-time" required>
+            <input type="text" id="event-venue" placeholder="Venue" required>
+            <textarea id="event-description" placeholder="Description" required></textarea>
+            <button type="submit">Create Event</button>
+        </form>
+        <div id="confirmation-message"></div>
+    </section>
+    
+ <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-content">
+        <div class="footer-section">
+            <h3>Thapar Institute of Engineering and Technology</h3>
+            <p>P.O. Box 32, Patiala, Punjab 147004, India</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="societies.html">Societies</a></li>
+            <li><a href="#">Sponsors</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <div class="contact-links">
+            <a
+                href="https://www.instagram.com/thapar.edu"
+                target="_blank"
+                class="contact-link"
+            >
+                <span class="material-symbols-outlined">alternate_email</span>
+            </a>
+            <a href="mailto:info@thapar.edu" class="contact-link">
+                <span class="material-symbols-outlined">mail</span>
+            </a>
+            <a
+                href="https://www.thapar.edu"
+                target="_blank"
+                class="contact-link"
+            >
+                <span class="material-symbols-outlined">language</span>
+            </a>
+            </div>
+            <p>Phone: +91-175-2393021</p>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <p>
+            &copy; 2024 Thapar Institute of Engineering and Technology. All rights
+            reserved.
+        </p>
+        </div>
+    </footer>
+    <!-- <div id="footer-bottom"></div> -->
+
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>

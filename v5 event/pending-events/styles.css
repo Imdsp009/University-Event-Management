@@ -1,0 +1,459 @@
+.nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* To position the underline */
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link i {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link div {
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.7;
+  }
+  
+  .navbar-custom {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effects for links */
+  .nav-link:hover {
+    transform: scale(1.1);
+    color: #007bff;
+  }
+  
+  /* Reduce vertical movement of icons on hover */
+  .nav-link:hover i {
+    transform: translateY(-2px); /* Reduced from -5px to -2px */
+  }
+  
+  /* Hover effect for icons */
+  .nav-item:hover .nav-link i {
+    color: #007bff;
+  }
+  
+  /* Underline Effect */
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+  }
+  
+  /* Underline expands on hover */
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Refined Search Bar Styling */
+  .search-bar {
+    width: 180px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #f8f9fa;
+    padding-left: 30px; /* Make space for the search icon */
+    transition: width 0.3s ease, border 0.3s ease;
+  }
+  
+  /* Remove blue outline on focus */
+  .search-bar:focus {
+    width: 250px;
+    border: 1px solid #007bff;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none; /* Remove default blue outline */
+  }
+  
+  /* Search bar placeholder styling */
+  .search-bar::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Position the search icon inside the search bar */
+  .search-bar-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  /* Autocomplete Dropdown Styling */
+  .autocomplete-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    display: none; /* Initially hidden */
+  }
+  
+  .autocomplete-suggestion {
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .autocomplete-suggestion:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Navbar when scrolling */
+  .navbar-custom.scrolled {
+    background-color: #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .popup.active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+  }
+  
+  .wrapper {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .wrapper h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .wrapper h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+  }
+  .wrapper form {
+    margin-top: 30px;
+  }
+  .wrapper form .input-box {
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #c7bebe;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .input-box input:focus,
+  .input-box input:valid {
+    border-color: #4070f4;
+  }
+  form .policy {
+    display: flex;
+    align-items: center;
+  }
+  form h3 {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .input-box.button input {
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #4070f4;
+    cursor: pointer;
+  }
+  .input-box.button input:hover {
+    background: #0e4bf1;
+  }
+  form .text h3 {
+    color: #333;
+    width: 100%;
+    text-align: center;
+  }
+  form .text h3 a {
+    color: #4070f4;
+    text-decoration: none;
+  }
+  form .text h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .close-btn1 {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-btn1:hover {
+    color: #ff0000;
+  }
+  
+  .wishlist-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 5% auto;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+    overflow: hidden;
+  }
+  
+  .modal-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .close-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  .wishlist-items {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .remove-btn {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: 18px;
+  }
+  
+  .remove-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .clear-all-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-all-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .empty-state {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+  }
+  
+  /* Smooth scrolling effect */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+/* Footer Section Styling */
+#footer {
+  display: none; /* Footer is hidden by default */
+  background-color: #1a1a1a;
+  padding: 40px 0;
+  color: #f5f5f6;
+  border-top: 1px solid #333;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ff3f6c; /* Red accent color from header */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #bdc3c7; /* Light gray for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #f5f5f6; /* Lighter color on hover for subtle effect */
+}
+
+.contact-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.contact-link {
+  color: #bdc3c7; /* Light gray for icons */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #ff3f6c; /* Red accent color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 0.9em;
+  color: #888; /* Slightly muted color for copyright text */
+  padding-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section h3 {
+    font-size: 16px;
+  }
+  .footer-bottom {
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thapar University Events</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo_container">
+        <a href="index.html"
+          ><img
+            class="tiet_home"
+            src="media/tiet.jpg"
+            alt="tiet_home"
+        /></a>
+      </div>
+
+      <nav class="nav_bar">
+        <a href="index.html">Home</a>
+        <a href="../v5 event/index.html">Events</a>
+        <a href="societies.html">Societies</a>
+        <a href="#footer">Contacts</a>
+        <a href="sponsor.html">Sponsors</a>
+      </nav>
+    
+      <div class="action_bar">
+        <div class="action_container" id="profileButton">
+          <span class="material-symbols-outlined action_icon"> person </span>
+          <span class="action_name">Profile</span>
+        </div>
+        <div class="action_container">
+          <span class="material-symbols-outlined"> favorite </span>
+          <span class="action_name">Wishlist</span>
+        </div>
+        <div class="action_container" id="calendar-container">
+          <span class="material-symbols-outlined"> calendar_month </span>
+          <span class="action_name">Calendar</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Popup Registration Form -->
+    <div class="popup" id="popupForm">
+      <div class="wrapper">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h2 id="formTitle">Registration</h2>
+        <form action="#" id="registrationForm">
+          <div class="input-box" id="nameInp">
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          
+          <div class="input-box">
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="input-box">
+            <input type="password" id="password" placeholder="Create password" required>
+          </div>
+
+          <div class="input-box" id="confirmPasswordBox">
+            <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+          </div>
+
+          <div class="policy" id="termsPolicy">
+            <input type="checkbox" id="terms" required>
+            <h3>I accept all terms & conditions</h3>
+          </div>
+
+          <div class="input-box button">
+            <input type="submit" value="Register Now" id="submitButton">
+          </div>
+
+          <div class="text">
+            <h3 id="toggleLogin">Already have an account? <a href="#">Login now</a></h3>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Main content sections (e.g., insights, sponsors, etc.) -->
+
+    <section class="main-section">
+      <div class="main-content">
+        <h1>Thapar Events and Fest</h1>
+        <h2>Initiate; Innovate; Inspire; Implement</h2>
+        <button class="cta-button" onclick="learnMore()">Learn More</button>
+      </div>
+    </section>
+
+    <section class="insights-section">
+      <div class="insights-container">
+        <h2 class="insights-heading">Insights</h2>
+        <div class="video-container">
+          <video class="insights-video" autoplay muted loop>
+            <source
+              src="media/d1fa69986ebe4aaea9572072c6042c91.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsors-section">
+      <h2 class="sponsors-heading">Our Sponsors</h2>
+      <div class="sponsors-container">
+        <!-- Sponsor Logos -->
+        <div class="sponsor-card">
+          <img
+            src="media/prabhu ji.avif"
+            alt="Prabhuji Chole Bhature"
+            class="sponsor-logo"
+          />
+        </div>
+        <div class="sponsor-card">
+          <img
+            src="media/shivnaresh.png"
+            alt="Shiv Naresh"
+            class="sponsor-logo"
+          />
+        </div>
+        <div class="sponsor-card">
+          <img src="media/realme.png" alt="Realme" class="sponsor-logo" />
+        </div>
+        <div class="sponsor-card">
+          <img
+            src="media/MARUTI.png"
+            alt="Maruti Suzuki"
+            class="sponsor-logo"
+          />
+        </div>
+        <div class="sponsor-card">
+          <img src="media/RedBull.jpg" alt="Red Bull" class="sponsor-logo" />
+        </div>
+        <div class="sponsor-card">
+          <img src="media/Subway.png" alt="Subway" class="sponsor-logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="teams-section">
+      <h2 class="teams-heading">Our Team</h2>
+      <div class="teams-container">
+        <!-- Individual Team Cards -->
+        <div class="team-card">
+          <img
+            src=""
+            alt="Dhruv Singh Pundir"
+            class="team-photo"
+          />
+          <h3 class="team-name">Dhruv Singh Pundir</h3>
+          <p class="team-role">Tech Lead</p>
+        </div>
+        <div class="team-card">
+          <img
+            src=""
+            alt="Shaurya Jain"
+            class="team-photo"
+          />
+          <h3 class="team-name">Shaurya Jain</h3>
+          <p class="team-role">Tech Lead</p>
+        </div>
+        <div class="team-card">
+          <img
+            src=""
+            alt="Guransh Singh"
+            class="team-photo"
+          />
+          <h3 class="team-name">Guransh Singh</h3>
+          <p class="team-role">Tech Lead</p>
+        </div>
+        <div class="team-card">
+          <img
+            src=""
+            alt="Arshdeep Aswal"
+            class="team-photo"
+          />
+          <h3 class="team-name">Arshdeep Aswal</h3>
+          <p class="team-role">Tech Lead</p>
+        </div>
+
+
+        
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Thapar Institute of Engineering and Technology</h3>
+          <p>P.O. Box 32, Patiala, Punjab 147004, India</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="societies.html">Societies</a></li>
+            <li><a href="#">Sponsors</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <div class="contact-links">
+            <a
+              href="https://www.instagram.com/thapar.edu"
+              target="_blank"
+              class="contact-link"
+            >
+              <span class="material-symbols-outlined">alternate_email</span>
+            </a>
+            <a href="mailto:info@thapar.edu" class="contact-link">
+              <span class="material-symbols-outlined">mail</span>
+            </a>
+            <a
+              href="https://www.thapar.edu"
+              target="_blank"
+              class="contact-link"
+            >
+              <span class="material-symbols-outlined">language</span>
+            </a>
+          </div>
+          <p>Phone: +91-175-2393021</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 Thapar Institute of Engineering and Technology. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="auth.js"></script>
+    <script>
+      // Simple function to handle the button click
+      function learnMore() {
+        alert("More information coming soon!");
+      }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
