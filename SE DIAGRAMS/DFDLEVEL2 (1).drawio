@@ -1,0 +1,220 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="DDR3ZfDrJNzFcNVzPJie">
+    <mxGraphModel dx="1749" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-59" value="Users" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="648" y="210" width="98" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-60" value="Organizer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="659" y="812" width="129" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-61" value="Admin" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331" y="691" width="105" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-62" value="Registered Event Details" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="551" width="234" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-63" value="User Profile Management" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="814" y="331" width="202" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-64" value="Event Registration" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="482" y="440" width="154" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-65" value="Event Creation" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="818" y="933" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-66" value="Query Events" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="803" y="698" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-67" value="Report/Feedback Management" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="337" y="550" width="152" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-68" value="Participant" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="863" y="551" width="139" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-69" value="Event List" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
+          <mxGeometry x="832" y="1039" width="102" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-70" value="User Details" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
+          <mxGeometry x="831" y="440" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-71" value="Event Participation Details" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
+          <mxGeometry x="1036" y="698" width="222" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-72" value="User Details" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.31;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-63" target="cTOhfIbd-LcMa5G6BluP-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-73" value="User Details" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.77;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-59" target="cTOhfIbd-LcMa5G6BluP-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="916" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-74" value="Event Registration Details" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.85;entryX=0.44;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-59" target="cTOhfIbd-LcMa5G6BluP-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="527" y="295" />
+              <mxPoint x="527" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-75" value="Event Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.11;entryY=-0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-60" target="cTOhfIbd-LcMa5G6BluP-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-76" value="Request for event lists" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0;entryX=0.34;entryY=0.99;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-60" target="cTOhfIbd-LcMa5G6BluP-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="776" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-77" value="Reporting parameters" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=0.91;entryY=0.99;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-61" target="cTOhfIbd-LcMa5G6BluP-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-78" value="Event Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=-0.01;entryX=1;entryY=0.78;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-65" target="cTOhfIbd-LcMa5G6BluP-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-79" value="Event List" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=0.99;entryX=0.28;entryY=0;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-66" target="cTOhfIbd-LcMa5G6BluP-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="776" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-80" value="User Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=0.99;entryX=0.89;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-63" target="cTOhfIbd-LcMa5G6BluP-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-81" value="Event Registration Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=0.99;entryX=0.36;entryY=-0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-64" target="cTOhfIbd-LcMa5G6BluP-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-82" value="Registration Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=0.99;entryX=0.08;entryY=0;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-64" target="cTOhfIbd-LcMa5G6BluP-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="783" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-83" value="event participation details" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0.99;entryX=0.93;entryY=-0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-64" target="cTOhfIbd-LcMa5G6BluP-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-84" value="Request for event lists" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=0.99;entryX=0.31;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-68" target="cTOhfIbd-LcMa5G6BluP-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="769" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-85" value="Event List" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0.01;entryX=0.56;entryY=0.99;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-66" target="cTOhfIbd-LcMa5G6BluP-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="957" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-86" value="Profile created/updated confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=0;entryX=0.75;entryY=0.99;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-68" target="cTOhfIbd-LcMa5G6BluP-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072" y="513" />
+              <mxPoint x="1072" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-87" value="Event Details" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.01;entryX=1;entryY=0.95;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-65" target="cTOhfIbd-LcMa5G6BluP-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1095" y="897" />
+              <mxPoint x="1095" y="776" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-88" value="Event List" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=0.99;entryX=0.57;entryY=-0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-66" target="cTOhfIbd-LcMa5G6BluP-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="913" y="776" />
+              <mxPoint x="913" y="897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-89" value="feedback summaries" style="curved=1;startArrow=none;endArrow=block;exitX=0.03;exitY=0.99;entryX=0;entryY=0.05;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-67" target="cTOhfIbd-LcMa5G6BluP-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-90" value="Event participation statistics" style="curved=1;startArrow=none;endArrow=block;exitX=0.42;exitY=0.99;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-67" target="cTOhfIbd-LcMa5G6BluP-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-91" value="Registered Event Details" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-64" target="cTOhfIbd-LcMa5G6BluP-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-92" value="Store Event List" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-65" target="cTOhfIbd-LcMa5G6BluP-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-93" value="Store User Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.46;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-63" target="cTOhfIbd-LcMa5G6BluP-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-94" value="Retrieve Event Participation Details" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.44;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-67" target="cTOhfIbd-LcMa5G6BluP-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1089" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTOhfIbd-LcMa5G6BluP-95" value="Update Event Participation Details" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.71;entryX=0.54;entryY=0.01;rounded=0;" edge="1" parent="1" source="cTOhfIbd-LcMa5G6BluP-64" target="cTOhfIbd-LcMa5G6BluP-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1184" y="513" />
+              <mxPoint x="1184" y="646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

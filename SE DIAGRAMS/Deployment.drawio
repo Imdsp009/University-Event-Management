@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
+  <diagram name="Page-1" id="mydhu-Z9HTBwstMfgDK1">
+    <mxGraphModel dx="1632" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-24" value="Admin_System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="531" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-25" value="Attendee_System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="571" y="347" width="1544" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-26" value="Organizer_System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371" y="20" width="1125" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-27" value="Organizer System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="865" y="45" width="185" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-28" value="Event Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="875" y="184" width="165" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-29" value="Attendee System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="377" width="181" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-30" value="Profile Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1808" y="545" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-31" value="Administrator System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="709" width="213" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-32" value="Analytics Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="67" y="545" width="189" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-33" value="Notification Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="306" y="545" width="209" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-34" value="Creates/Updates Events" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-27" target="nyQqMaLk-3ZHyaphi-7h-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-35" value="Event Created/Updated Successfully" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=-0.01;entryX=0.8;entryY=0.99;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-28" target="nyQqMaLk-3ZHyaphi-7h-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1115" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-36" value="Registers and Creates Profile" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.21;entryY=0;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-29" target="nyQqMaLk-3ZHyaphi-7h-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="460" />
+              <mxPoint x="1780" y="500" />
+              <mxPoint x="1792" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-37" value="Profile Created Successfully" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=1;entryY=0.7;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-30" target="nyQqMaLk-3ZHyaphi-7h-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1993" y="520" />
+              <mxPoint x="1993" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-38" value="Views and Registers for Events" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=0;entryX=1;entryY=0.65;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-29" target="nyQqMaLk-3ZHyaphi-7h-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1476" y="347" />
+              <mxPoint x="1476" y="257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-39" value="Provides Event Details" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=0;entryY=0.34;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-28" target="nyQqMaLk-3ZHyaphi-7h-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="257" />
+              <mxPoint x="686" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-40" value="Sends Event Suggestions &amp; Registration Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.65;entryX=0.56;entryY=0;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-28" target="nyQqMaLk-3ZHyaphi-7h-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="257" />
+              <mxPoint x="434" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-41" value="Notifies Event Registration" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.37;entryX=0.33;entryY=0.99;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-33" target="nyQqMaLk-3ZHyaphi-7h-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="560" />
+              <mxPoint x="1190" y="510" />
+              <mxPoint x="1240" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-42" value="Sends Event Reminders/Updates" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.39;entryX=0.67;entryY=0.99;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-33" target="nyQqMaLk-3ZHyaphi-7h-29">
+          <mxGeometry x="0.0005" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="580" />
+              <mxPoint x="1430" y="520" />
+              <mxPoint x="1430" y="475" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-43" value="Acknowledges Reminders/Updates" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=1;entryY=0.27;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-29" target="nyQqMaLk-3ZHyaphi-7h-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="876" y="475" />
+              <mxPoint x="876" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-44" value="Requests Feedback &amp; Participation" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=1;entryY=0.31;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-29" target="nyQqMaLk-3ZHyaphi-7h-32">
+          <mxGeometry x="-0.1877" y="-11" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="490" />
+              <mxPoint x="670" y="510" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-45" value="Sends Reports &amp; Insights" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-32" target="nyQqMaLk-3ZHyaphi-7h-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-46" value="Sends Real-Time Safety Notifications" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.41;entryX=0.99;entryY=0.99;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-33" target="nyQqMaLk-3ZHyaphi-7h-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="610" />
+              <mxPoint x="1607" y="520" />
+              <mxPoint x="1607" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-47" value="Acknowledges Safety Notifications" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.96;entryX=1;entryY=0.33;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-29" target="nyQqMaLk-3ZHyaphi-7h-33">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="490" />
+              <mxPoint x="1045" y="520" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

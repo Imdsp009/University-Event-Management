@@ -1,0 +1,201 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
+  <diagram name="Page-1" id="X1Zq6REPn-b3VxpicaX4">
+    <mxGraphModel dx="2599" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="491" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-2" value="SystemIdle" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="452" y="84" width="93" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-3" value="EventCreation" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="29" y="623" width="117" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-4" value="EventCreated" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="31" y="748" width="113" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-5" value="IdleForOrganizer" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="20" y="872" width="135" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-6" value="ProfileRegistration" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="484" y="226" width="149" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-7" value="ProfileCreated" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="499" y="362" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-8" value="EventBrowsing" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="499" y="499" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-9" value="EventRegistration" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="488" y="623" width="142" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-10" value="RegistrationConfirmed" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="471" y="748" width="176" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-11" value="IdleForAttendee" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="732" y="872" width="132" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-12" value="NotificationUpdate" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="722" y="623" width="152" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-13" value="NotificationAcknowledged" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="697" y="748" width="203" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-14" value="SafetyNotification" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="959" y="623" width="146" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-15" value="SafetyAcknowledged" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="950" y="748" width="164" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-16" value="FeedbackRequest" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="227" y="226" width="141" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-17" value="FeedbackProcessed" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="220" y="362" width="154" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-18" value="AnalyticsSent" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="301" y="499" width="112" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-19" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="447" y="957" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-20" value="" style="curved=1;startArrow=none;;exitX=0.53;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-1" target="JJ2eEnsaKNLbzd2QeQ1v-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-21" value="Organizer creates/updates event" style="curved=1;startArrow=none;;exitX=0;exitY=0.72;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-2" target="JJ2eEnsaKNLbzd2QeQ1v-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-22" value="Event successfully created/updated" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-3" target="JJ2eEnsaKNLbzd2QeQ1v-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-23" value="Organizer waits for further actions" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-4" target="JJ2eEnsaKNLbzd2QeQ1v-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-24" value="Attendee registers and creates profile" style="curved=1;startArrow=none;;exitX=0.66;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-2" target="JJ2eEnsaKNLbzd2QeQ1v-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-25" value="Profile successfully created" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-6" target="JJ2eEnsaKNLbzd2QeQ1v-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-26" value="Attendee checks available events" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-7" target="JJ2eEnsaKNLbzd2QeQ1v-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-27" value="Attendee registers for an event" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.97;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-8" target="JJ2eEnsaKNLbzd2QeQ1v-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-28" value="Event registration confirmed" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-9" target="JJ2eEnsaKNLbzd2QeQ1v-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-29" value="Attendee waits for notifications/reminders" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.98;entryX=0;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-10" target="JJ2eEnsaKNLbzd2QeQ1v-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-30" value="Administrator or system sends event reminders/updates" style="curved=1;startArrow=none;;exitX=1;exitY=0.81;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-2" target="JJ2eEnsaKNLbzd2QeQ1v-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-31" value="Attendee acknowledges reminders/updates" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-12" target="JJ2eEnsaKNLbzd2QeQ1v-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-32" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-13" target="JJ2eEnsaKNLbzd2QeQ1v-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-33" value="Administrator sends real-time safety notification" style="curved=1;startArrow=none;;exitX=1;exitY=0.67;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-2" target="JJ2eEnsaKNLbzd2QeQ1v-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-34" value="Attendee acknowledges safety notification" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-14" target="JJ2eEnsaKNLbzd2QeQ1v-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-35" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.98;entryX=0.99;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-15" target="JJ2eEnsaKNLbzd2QeQ1v-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-36" value="Attendee requests feedback or participation reports" style="curved=1;startArrow=none;;exitX=0;exitY=0.96;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-2" target="JJ2eEnsaKNLbzd2QeQ1v-16">
+          <mxGeometry x="0.7597" y="12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="172" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-37" value="Analytics system processes feedback" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-16" target="JJ2eEnsaKNLbzd2QeQ1v-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-38" value="Administrator receives analytics" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.35;entryY=-0.01;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-17" target="JJ2eEnsaKNLbzd2QeQ1v-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-39" value="" style="curved=1;startArrow=none;;exitX=0.64;exitY=-0.01;entryX=0.28;entryY=0.99;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-18" target="JJ2eEnsaKNLbzd2QeQ1v-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="454" />
+              <mxPoint x="416" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-40" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.03;entryY=0.45;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-5" target="JJ2eEnsaKNLbzd2QeQ1v-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="88" y="932" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ2eEnsaKNLbzd2QeQ1v-41" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=1.03;entryY=0.45;rounded=0;" edge="1" parent="1" source="JJ2eEnsaKNLbzd2QeQ1v-11" target="JJ2eEnsaKNLbzd2QeQ1v-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="932" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

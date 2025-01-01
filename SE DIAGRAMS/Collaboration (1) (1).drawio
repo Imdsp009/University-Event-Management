@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="jvMe2b0aZP1Ac9T8lrg0">
+    <mxGraphModel dx="2733" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-96" value="System Administrator" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="212" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-97" value="Manage Events UI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="34" y="220" width="185" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-98" value="Events Control" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="44" y="520" width="164" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-99" value="Event" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="87" y="1070" width="100" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-100" value="1. Select Events" style="curved=1;startArrow=none;endArrow=block;exitX=0.45;exitY=0.99;entryX=0.44;entryY=-0.01;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="96" />
+            </Array>
+            <mxPoint x="43.18367346938783" y="69.00000000000006" as="sourcePoint" />
+            <mxPoint x="43.61764705882342" y="220.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-101" value="2. Request List of Events" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-97" target="Y6--HrLMxxLeiNxg-00q-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="190" />
+            </Array>
+            <mxPoint x="25.375" y="261" as="sourcePoint" />
+            <mxPoint x="25.04000000000019" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-102" value="3. Retrieve List of Events" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-98" target="Y6--HrLMxxLeiNxg-00q-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72" y="480" />
+              <mxPoint x="20" y="769" />
+              <mxPoint x="50" y="810" />
+            </Array>
+            <mxPoint x="84.28571428571445" y="748" as="sourcePoint" />
+            <mxPoint x="96.21568627450961" y="1249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-104" value="5. Display Events" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=0;entryX=0.56;entryY=0.98;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="198" />
+            </Array>
+            <mxPoint x="174.48000000000002" y="520" as="sourcePoint" />
+            <mxPoint x="175.06249999999977" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-105" value="6. Select Add Event" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-96" target="Y6--HrLMxxLeiNxg-00q-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-106" value="7. Send Selection" style="curved=1;startArrow=none;endArrow=block;exitX=0.269;exitY=0.982;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="220" />
+            </Array>
+            <mxPoint x="82.9375" y="291" as="sourcePoint" />
+            <mxPoint x="80" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-107" value="8. Display Add Form" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0.62;entryY=0.98;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="291.04" y="300" />
+              <mxPoint x="225.04" y="198" />
+            </Array>
+            <mxPoint x="200.00000000000003" y="520" as="sourcePoint" />
+            <mxPoint x="200.665" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-108" value="9. Enter New Event Info" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0.99;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245.18" y="96" />
+            </Array>
+            <mxPoint x="231.99632653061207" y="69.00000000000006" as="sourcePoint" />
+            <mxPoint x="220" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-109" value="10. Send New Event Info" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-97">
+          <mxGeometry x="0.1249" y="4" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="126.75" y="290" as="sourcePoint" />
+            <mxPoint x="126" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-110" value="11. New Event" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-98" target="Y6--HrLMxxLeiNxg-00q-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6--HrLMxxLeiNxg-00q-111" value="4. Return List of Events" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.971;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y6--HrLMxxLeiNxg-00q-99" target="Y6--HrLMxxLeiNxg-00q-98">
+          <mxGeometry x="-0.1954" y="6" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="790" as="sourcePoint" />
+            <mxPoint x="200" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="790" />
+              <mxPoint x="150" y="740" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

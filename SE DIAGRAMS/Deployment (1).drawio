@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
+  <diagram name="Page-1" id="mydhu-Z9HTBwstMfgDK1">
+    <mxGraphModel dx="2040" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-663" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="1890" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-662" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="1750" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-641" value="User  Classes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="1730" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-642" value="System Infrastructure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="720" width="1870" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-643" value="Application Server&#xa;Hosts the EMS Web Application" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="794" width="244" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-644" value="Database Server&#xa;Stores user and event data (PostgreSQL)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1628" y="785" width="234" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-645" value="Authentication Service&#xa;TIET LDAP/SSO Integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="363" y="785" width="233" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-646" value="Notification Service&#xa;Email/SMS Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="785" width="201" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-647" value="Event Organizers&#xa;Faculty or students organizing events" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="353" width="248" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-648" value="Participants&#xa;Students, faculty, and external participants" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="345" width="227" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-649" value="Administrators&#xa;IT staff managing the system" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="354" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-650" value="Uses" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0;entryY=0.36;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-647" target="nyQqMaLk-3ZHyaphi-7h-643">
+          <mxGeometry x="-0.1342" y="3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="540" />
+              <mxPoint x="680" y="570" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-651" value="Uses" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.03;entryY=-0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-648" target="nyQqMaLk-3ZHyaphi-7h-643">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="540" />
+              <mxPoint x="1220" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-652" value="Manages" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=1;entryY=0.2;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-649" target="nyQqMaLk-3ZHyaphi-7h-643">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1606" y="454" />
+              <mxPoint x="1606" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-653" value="Maintains" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-649" target="nyQqMaLk-3ZHyaphi-7h-644">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-654" value="Uses" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.07;entryY=0;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-647" target="nyQqMaLk-3ZHyaphi-7h-645">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="454" />
+              <mxPoint x="308" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-655" value="Uses" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=1;entryY=0.32;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-648" target="nyQqMaLk-3ZHyaphi-7h-645">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="490" />
+              <mxPoint x="1005" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-656" value="Receives Notifications from" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=1;entryY=0.22;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-648" target="nyQqMaLk-3ZHyaphi-7h-646">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1143" y="454" />
+              <mxPoint x="1143" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-657" value="Receives Notifications from" style="curved=1;startArrow=none;endArrow=block;exitX=0.28;exitY=1;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-647" target="nyQqMaLk-3ZHyaphi-7h-646">
+          <mxGeometry x="-0.2565" y="13" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="454" />
+              <mxPoint x="446" y="544" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-658" value="Login/Registration" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.94;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-647" target="nyQqMaLk-3ZHyaphi-7h-645">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="550" />
+              <mxPoint x="420" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-659" value="Login/Registration" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=1;entryY=0.39;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-648" target="nyQqMaLk-3ZHyaphi-7h-645">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="440" />
+              <mxPoint x="780" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-660" value="Event Registration/Management" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-647" target="nyQqMaLk-3ZHyaphi-7h-643">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="817" y="454" />
+              <mxPoint x="817" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-661" value="Event Registration" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=1;entryY=0.09;rounded=0;" edge="1" parent="1" source="nyQqMaLk-3ZHyaphi-7h-648" target="nyQqMaLk-3ZHyaphi-7h-643">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1487" y="454" />
+              <mxPoint x="1487" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-664" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="295" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nyQqMaLk-3ZHyaphi-7h-665" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1862" y="730" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
